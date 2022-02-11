@@ -608,6 +608,10 @@ progress {
   height: 267px;
 }
 
+.img-front {
+  min-width: 100%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11572,6 +11576,128 @@ header.masthead .masthead-heading {
   background-color: transparent;
 }
 .alpinisms-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+#noma .noma-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#noma .noma-item .noma-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: 0.5s;
+}
+#noma .noma-item .noma-link-disabled {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: 0.5s;
+}
+#noma .noma-item .noma-link .noma-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background: #750000;*/
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+
+#noma .noma-item .noma-link-disabled .noma-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background: #750000;*/
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+
+#noma .noma-item .noma-link .noma-hover .noma-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#noma .noma-item .noma-link-disabled .noma-hover .noma-hover-content {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+#noma .noma-item .noma-link:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+#noma .noma-item .noma-link:hover .noma-hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+#noma .noma-item .noma-link-disabled:hover .noma-hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+#noma .noma-item .noma-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#noma .noma-item .noma-caption .noma-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#noma .noma-item .noma-caption .noma-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.noma-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.noma-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.noma-modal .modal-content h2, .noma-modal .modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.noma-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.noma-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.noma-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.noma-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.noma-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.noma-modal .close-modal:hover {
   opacity: 0.3;
 }
 
