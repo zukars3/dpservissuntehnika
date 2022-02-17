@@ -11334,6 +11334,7 @@ p {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-social {
@@ -11349,7 +11350,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #490000;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11375,7 +11376,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #750000;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -11397,7 +11398,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #490000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11418,7 +11419,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpeg");
+  background-image: url("../assets/img/header-bg-new.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11461,6 +11462,7 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #alpinisms .alpinisms-item .alpinisms-link {
   position: relative;
@@ -11540,8 +11542,8 @@ header.masthead .masthead-heading {
 }
 
 .alpinisms-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  margin: 20px auto;
+  min-width: 60vw;
 }
 .alpinisms-modal .modal-content {
   padding-top: 6rem;
@@ -11583,6 +11585,7 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #noma .noma-item .noma-link {
   position: relative;
@@ -11649,6 +11652,7 @@ header.masthead .masthead-heading {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
+  min-height: 156px;
 }
 #noma .noma-item .noma-caption .noma-caption-heading {
   font-size: 1.5rem;
